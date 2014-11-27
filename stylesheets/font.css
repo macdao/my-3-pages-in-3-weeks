@@ -1,0 +1,58 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-ldj8i');
+	src:url('fonts/icomoon.eot?#iefix-ldj8i') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-ldj8i') format('woff'),
+		url('fonts/icomoon.ttf?-ldj8i') format('truetype'),
+		url('fonts/icomoon.svg?-ldj8i#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-quill:before {
+	content: "\e600";
+}
+.icon-play:before {
+	content: "\e601";
+}
+.icon-redo:before {
+	content: "\e602";
+}
+.icon-search:before {
+	content: "\e603";
+}
+.icon-expand:before {
+	content: "\e604";
+}
+.icon-cog:before {
+	content: "\e605";
+}
+.icon-star:before {
+	content: "\e606";
+}
+.icon-loop:before {
+	content: "\e607";
+}
+.icon-mail:before {
+	content: "\e608";
+}
+.icon-twitter:before {
+	content: "\e609";
+}
+.icon-ellipsis:before {
+	content: "\e60a";
+}

@@ -2,63 +2,90 @@
 @import "compass/css3";
 
 body > header {
-    height: 50px;
-    width: 100%;
-    /*border-bottom: 1px solid HSL(0, 0%, 80%);*/
-    background: HSL(38,100%,98%);
-    box-shadow: 0 0 5px gray;
-    position: absolute;
+  height: 50px;
+  width: 100%;
+  /*border-bottom: 1px solid HSL(0, 0%, 80%);*/
+  background: HSL(38, 100%, 98%);
+  box-shadow: 0 0 5px gray;
+  position: absolute;
 }
 
 body > header > div {
-    display: inline-block;
+  display: inline-block;
 }
 
 body > header li {
-    display: inline-block;
+  display: inline-block;
 }
 
 body > aside {
-    margin-top:50px;
-    width: 25%;
+  margin-top: 50px;
+  width: 25%;
 }
 
 aside#profile {
-    float: left;
-    background: HSL(205, 45%, 63%);
+  float: left;
+  background: HSL(205, 45%, 63%);
 }
 
 aside#ad {
-    float: right;
-    background: HSL(38,100%,98%);
+  float: right;
+  background: HSL(38, 100%, 98%);
 }
 
 #main {
-    margin-top:50px;
-    float: left;
-    width: 50%;
-    background: HSL(33, 30%, 93%);
+  margin-top: 50px;
+  float: left;
+  width: 50%;
+  background: HSL(33, 30%, 93%);
 }
 
 #main > nav {
-    background: HSL(38,100%,98%);
-    height: 50px;
-    margin: 25px 20px 15px 20px;
+  background: HSL(38, 100%, 98%);
+  height: 50px;
+  margin: 25px 20px 15px 20px;
 }
 
 #main nav > ul > li {
-    display: inline-block;
-    width: 24%;
+  display: inline-block;
+  width: 24%;
 }
 
 #main > section {
-    background: HSL(38,100%,98%);
-    margin: 15px 20px 20px 20px;
+  background: HSL(38, 100%, 98%);
+  margin: 15px 20px 20px 20px;
 }
-#main > section > ul{
-    list-style: none;
-    padding-left: 0;
+
+#main > section > ul {
+  list-style: none;
+  padding-left: 0;
 }
+
 #main > section > ul > li {
-    border-bottom: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.posts {
+  .post {
+    img {
+      margin-left: 1em;
+      margin-top: 1em;
+      width: 3em;
+      height: 3em;
+      border-radius: 100%;
+      position: absolute;
+    }
+    header {
+      margin-left: 5em;
+      padding-top: 1em;
+    }
+
+    .content {
+      margin-left: 10em;
+      padding-top: 1em;
+      line-height: 1.2em;
+      font-size: 0.5em;
+    }
+
+  }
 }
