@@ -65,8 +65,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 body > header {
     height: 50px;
-    border-bottom: 1px solid HSL(0, 0%, 80%);
+    width: 100%;
+    /*border-bottom: 1px solid HSL(0, 0%, 80%);*/
     background: HSL(38,100%,98%);
+    box-shadow: 0 0 5px gray;
+    position: absolute;
 }
 
 body > header > div {
@@ -78,6 +81,7 @@ body > header li {
 }
 
 body > aside {
+    margin-top:50px;
     width: 25%;
 }
 
@@ -92,6 +96,7 @@ aside#ad {
 }
 
 #main {
+    margin-top:50px;
     float: left;
     width: 50%;
     background: HSL(33, 30%, 93%);
