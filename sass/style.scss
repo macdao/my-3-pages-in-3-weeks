@@ -1,6 +1,19 @@
 @import "compass/reset";
 @import "compass/css3";
 
+$text-color: #58575F;
+$body-color: #F2EEE8;
+$post-bg-color: #FFFBF5;
+$gray-text-color: #C6C1B0;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+  text-align: center;
+  color: $text-color;
+  background-color: $body-color;
+}
+
 body > header {
   height: 50px;
   width: 100%;
@@ -30,7 +43,7 @@ aside#profile {
 
 aside#ad {
   float: right;
-  background: HSL(38, 100%, 98%);
+  background: $post-bg-color;
 }
 
 #main {
@@ -41,7 +54,7 @@ aside#ad {
 }
 
 #main > nav {
-  background: HSL(38, 100%, 98%);
+  background: $post-bg-color;
   height: 50px;
   margin: 25px 20px 15px 20px;
 }
@@ -52,7 +65,7 @@ aside#ad {
 }
 
 #main > section {
-  background: HSL(38, 100%, 98%);
+  background: $post-bg-color;
   margin: 15px 20px 20px 20px;
 }
 
@@ -84,7 +97,6 @@ aside#ad {
       margin-left: 10em;
       padding-top: 1em;
       line-height: 1.2em;
-      font-size: 0.5em;
     }
 
   }

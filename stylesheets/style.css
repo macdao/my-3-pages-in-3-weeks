@@ -1,4 +1,4 @@
-/* line 5, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,50 +20,59 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../usr/local/opt/rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../usr/local/opt/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 4, ../sass/style.scss */
+/* line 9, ../sass/style.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+  text-align: center;
+  color: #58575F;
+  background-color: #F2EEE8;
+}
+
+/* line 17, ../sass/style.scss */
 body > header {
   height: 50px;
   width: 100%;
@@ -73,35 +82,35 @@ body > header {
   position: absolute;
 }
 
-/* line 13, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 body > header > div {
   display: inline-block;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 body > header li {
   display: inline-block;
 }
 
-/* line 21, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 body > aside {
   margin-top: 50px;
   width: 25%;
 }
 
-/* line 26, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 aside#profile {
   float: left;
   background: HSL(205, 45%, 63%);
 }
 
-/* line 31, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 aside#ad {
   float: right;
-  background: HSL(38, 100%, 98%);
+  background: #FFFBF5;
 }
 
-/* line 36, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 #main {
   margin-top: 50px;
   float: left;
@@ -109,37 +118,37 @@ aside#ad {
   background: HSL(33, 30%, 93%);
 }
 
-/* line 43, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 #main > nav {
-  background: HSL(38, 100%, 98%);
+  background: #FFFBF5;
   height: 50px;
   margin: 25px 20px 15px 20px;
 }
 
-/* line 49, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 #main nav > ul > li {
   display: inline-block;
   width: 24%;
 }
 
-/* line 54, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 #main > section {
-  background: HSL(38, 100%, 98%);
+  background: #FFFBF5;
   margin: 15px 20px 20px 20px;
 }
 
-/* line 59, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 #main > section > ul {
   list-style: none;
   padding-left: 0;
 }
 
-/* line 64, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 #main > section > ul > li {
   border-bottom: 1px solid gray;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 .posts .post img {
   margin-left: 1em;
   margin-top: 1em;
@@ -148,15 +157,14 @@ aside#ad {
   border-radius: 100%;
   position: absolute;
 }
-/* line 78, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .posts .post header {
   margin-left: 5em;
   padding-top: 1em;
 }
-/* line 83, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 .posts .post .content {
   margin-left: 10em;
   padding-top: 1em;
   line-height: 1.2em;
-  font-size: 0.5em;
 }
