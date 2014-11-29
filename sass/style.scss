@@ -15,7 +15,7 @@ body {
 }
 
 body > header {
-  height: 50px;
+  height: 80px;
   width: 100%;
   /*border-bottom: 1px solid HSL(0, 0%, 80%);*/
   background: HSL(38, 100%, 98%);
@@ -32,8 +32,8 @@ body > header li {
 }
 
 body > aside {
-  margin-top: 50px;
-  width: 25%;
+  margin-top: 80px;
+  width: 10%;
 }
 
 aside#profile {
@@ -47,9 +47,9 @@ aside#ad {
 }
 
 #main {
-  margin-top: 50px;
+  margin-top: 80px;
   float: left;
-  width: 50%;
+  width: 80%;
   background: HSL(33, 30%, 93%);
 }
 
@@ -80,24 +80,34 @@ aside#ad {
 
 .posts {
   .post {
+    text-align: left;
     img {
-      margin-left: 1em;
-      margin-top: 1em;
-      width: 3em;
-      height: 3em;
+      margin-left: 3em;
+      margin-top: 3em;
+      width: 4em;
+      height: 4em;
       border-radius: 100%;
       position: absolute;
     }
-    header {
-      margin-left: 5em;
-      padding-top: 1em;
-    }
+    section {
+      margin-left: 9em;
 
-    .content {
-      margin-left: 10em;
-      padding-top: 1em;
-      line-height: 1.2em;
-    }
+      header {
+        padding-top: 3em;
+      }
 
+      .content {
+        padding-top: 1em;
+        line-height: 1.2em;
+      }
+      footer {
+        a {
+          text-decoration: none;
+          color: $gray-text-color;
+          margin-right: 0.6em;
+          font-weight: bold;
+        }
+      }
+    }
   }
 }
