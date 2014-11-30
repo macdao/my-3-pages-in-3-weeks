@@ -15,6 +15,10 @@ body {
   background-color: $body-color;
 }
 
+a {
+  text-decoration: none;
+}
+
 body > header {
   height: 80px;
   width: 100%;
@@ -22,14 +26,80 @@ body > header {
   background: HSL(38, 100%, 98%);
   box-shadow: 0 0 5px gray;
   position: absolute;
-}
 
-body > header > div {
-  display: inline-block;
-}
+  .tweet {
+    width: 80px;
+    height: 100%;
+    border-right: 1px solid $gray-text-color;
+    float: left;
+    a {
+      display: block;
+      width: 40px;
+      margin: 20px 0 0 20px;
+      line-height: 40px;
+      border-radius: 100%;
+      color: white;
+      background-color: HSL(205, 45%, 63%);
+      border: 0;
+    }
+  }
 
-body > header li {
-  display: inline-block;
+  .actions {
+    float: left;
+    a {
+      display: inline-block;
+      width: 40px;
+      margin: 20px 0 0 20px;
+      line-height: 40px;
+      border-radius: 100%;
+      border: 1px solid $gray-text-color;
+      color: HSL(45, 4%, 36%);
+      font-size: 15px;
+    }
+  }
+
+  h1 {
+    margin: 25px auto;
+    font-size: 30px;
+    color: HSL(205, 45%, 63%);
+    width: 30px;
+  }
+  .operations {
+    float: right;
+    width: 300px;
+
+    .search {
+      float: left;
+      height: 100%;
+      line-height: 80px;
+      position: relative;
+      input {
+        width: 210px;
+        height: 40px;
+        border-radius: 20px;
+        border: 1px solid $gray-text-color;
+        font-size: 16px;
+        background-color: transparent;
+        padding: 10px;
+      }
+      span {
+        position: absolute;
+        line-height: 80px;
+        left: 180px;
+        font-size: 18px;
+      }
+    }
+    .account {
+      float: left;
+      height: 100%;
+      padding-top: 20px;
+      padding-left: 20px;
+      img {
+        width: 40px;
+        border-radius: 100%;
+      }
+    }
+  }
 }
 
 body > aside {
@@ -146,7 +216,6 @@ aside#ad {
         margin-top: 20px;
         a {
           font-size: 16px;
-          text-decoration: none;
           color: $gray-text-color;
           margin-right: 0.6em;
           &:last-child {
