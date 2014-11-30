@@ -5,6 +5,7 @@ $text-color: #58575F;
 $body-color: #F2EEE8;
 $post-bg-color: #FFFBF5;
 $gray-text-color: #C6C1B0;
+$border-color: HSL(300, 6%, 86%);
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -22,9 +23,8 @@ a {
 body > header {
   height: 80px;
   width: 100%;
-  /*border-bottom: 1px solid HSL(0, 0%, 80%);*/
   background: HSL(38, 100%, 98%);
-  box-shadow: 0 0 5px gray;
+  box-shadow: 0 0 5px $border-color;
   position: absolute;
 
   .tweet {
@@ -52,7 +52,7 @@ body > header {
       margin: 20px 0 0 20px;
       line-height: 40px;
       border-radius: 100%;
-      border: 1px solid $gray-text-color;
+      border: 1px solid $border-color;
       color: HSL(45, 4%, 36%);
       font-size: 15px;
     }
@@ -66,7 +66,7 @@ body > header {
   }
   .operations {
     float: right;
-    width: 300px;
+    width: 294px;
 
     .search {
       float: left;
@@ -74,18 +74,19 @@ body > header {
       line-height: 80px;
       position: relative;
       input {
-        width: 210px;
+        width: 186px;
         height: 40px;
         border-radius: 20px;
-        border: 1px solid $gray-text-color;
+        border: 1px solid $border-color;
         font-size: 16px;
         background-color: transparent;
-        padding: 10px;
+        padding-left: 18px;
+        outline-style: none;
       }
       span {
         position: absolute;
         line-height: 80px;
-        left: 180px;
+        left: 175px;
         font-size: 18px;
       }
     }
@@ -123,7 +124,7 @@ aside#ad {
   float: left;
   width: 50%;
   background: HSL(33, 30%, 93%);
-  padding: 40px;
+  padding: 3%;
 }
 
 #main > nav {
@@ -211,6 +212,7 @@ aside#ad {
         padding-top: 15px;
         font-size: 15px;
         line-height: 20px;
+        overflow: hidden;
       }
       footer {
         margin-top: 20px;
