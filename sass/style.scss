@@ -9,7 +9,7 @@ $border-color: HSL(300, 6%, 86%);
 $dark-bg-color: HSL(208, 43%, 65%);
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-weight: 300;
   font-size: 62.5%;
   text-align: center;
@@ -31,7 +31,7 @@ body > header {
   .tweet {
     width: 80px;
     height: 100%;
-    border-right: 1px solid $gray-text-color;
+    border-right: 1px solid $border-color;
     float: left;
     a {
       display: block;
@@ -164,11 +164,13 @@ aside#profile {
       text-transform: uppercase;
     }
     ul {
+      margin-top: 10px;
       color: HSL(208, 35%, 57%);
       li {
         line-height: 30px;
         a {
           color: white;
+          border-bottom: 1px solid HSL(212, 40%, 90%);
         }
       }
 
@@ -194,6 +196,7 @@ aside#ad {
   background: $post-bg-color;
   height: 80px;
   margin-bottom: 30px;
+  box-shadow: 0 2px 5px $border-color;
 
   ul {
     height: 100%;
@@ -222,6 +225,7 @@ aside#ad {
 
 #main > section {
   background: $post-bg-color;
+  box-shadow: 0 2px 5px $border-color;
 }
 
 #main > section > ul {
