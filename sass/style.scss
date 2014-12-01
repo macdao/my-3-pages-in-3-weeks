@@ -295,3 +295,74 @@ aside#ad {
     }
   }
 }
+
+#ad {
+  font-size: 16px;
+  .trends {
+    text-align: left;
+    padding: 40px 35px;
+    h2 {
+      text-transform: uppercase;
+    }
+    ul {
+      margin-top: 20px;
+      a {
+        color: $dark-bg-color;
+        line-height: 22px;
+      }
+    }
+  }
+
+  .follow {
+    padding: 10px 40px 0 50px;
+
+    header {
+      height: 20px;
+      margin-bottom: 10px;
+      h2 {
+        text-transform: uppercase;
+        float: left;
+      }
+      a {
+        float: right;
+        color: $dark-bg-color;
+      }
+    }
+
+    ul {
+      li {
+        height: 60px;
+        img {
+          border-radius: 100%;
+          float: left;
+          width: 40px;
+        }
+        .detail {
+          width: 130px;
+          padding-left: 20px;
+          float: left;
+          text-align: left;
+          line-height: 20px;
+          .name {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+          .description {
+            color: $gray-text-color;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+        .add {
+          float: right;
+          border: 1px solid $body-color;
+          width: 15px;
+          line-height: 15px;
+        }
+      }
+    }
+
+  }
+}

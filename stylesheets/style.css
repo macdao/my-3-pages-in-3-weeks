@@ -382,3 +382,83 @@ aside#ad {
 .posts .post section footer a:last-child {
   float: right;
 }
+
+/* line 299, ../sass/style.scss */
+#ad {
+  font-size: 16px;
+}
+/* line 301, ../sass/style.scss */
+#ad .trends {
+  text-align: left;
+  padding: 40px 35px;
+}
+/* line 304, ../sass/style.scss */
+#ad .trends h2 {
+  text-transform: uppercase;
+}
+/* line 307, ../sass/style.scss */
+#ad .trends ul {
+  margin-top: 20px;
+}
+/* line 309, ../sass/style.scss */
+#ad .trends ul a {
+  color: HSL(208, 43%, 65%);
+  line-height: 22px;
+}
+/* line 316, ../sass/style.scss */
+#ad .follow {
+  padding: 10px 40px 0 50px;
+}
+/* line 319, ../sass/style.scss */
+#ad .follow header {
+  height: 20px;
+  margin-bottom: 10px;
+}
+/* line 322, ../sass/style.scss */
+#ad .follow header h2 {
+  text-transform: uppercase;
+  float: left;
+}
+/* line 326, ../sass/style.scss */
+#ad .follow header a {
+  float: right;
+  color: HSL(208, 43%, 65%);
+}
+/* line 333, ../sass/style.scss */
+#ad .follow ul li {
+  height: 60px;
+}
+/* line 335, ../sass/style.scss */
+#ad .follow ul li img {
+  border-radius: 100%;
+  float: left;
+  width: 40px;
+}
+/* line 340, ../sass/style.scss */
+#ad .follow ul li .detail {
+  width: 130px;
+  padding-left: 20px;
+  float: left;
+  text-align: left;
+  line-height: 20px;
+}
+/* line 346, ../sass/style.scss */
+#ad .follow ul li .detail .name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 351, ../sass/style.scss */
+#ad .follow ul li .detail .description {
+  color: #C6C1B0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 358, ../sass/style.scss */
+#ad .follow ul li .add {
+  float: right;
+  border: 1px solid #F2EEE8;
+  width: 15px;
+  line-height: 15px;
+}
