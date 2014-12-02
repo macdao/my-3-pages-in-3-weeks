@@ -15,7 +15,6 @@ body {
   text-align: center;
   color: $text-color;
   background-color: $body-color;
-  min-width: 1030px;
   a {
     text-decoration: none;
   }
@@ -23,6 +22,7 @@ body {
     top: 0;
     height: 80px;
     width: 100%;
+    min-width: 760px;
     background: HSL(38, 100%, 98%);
     box-shadow: 0 0 5px $border-color;
     position: fixed;
@@ -103,7 +103,7 @@ body {
       }
     }
   }
-  & > div {
+  & > section {
     position: relative;
     margin-top: 80px;
     & > aside {
@@ -264,8 +264,7 @@ body {
     }
 
     #main {
-      margin: 0 auto;
-      width: 50%;
+      margin: 0 340px 0 340px;
       min-width: 680px;
       background: HSL(33, 30%, 93%);
       padding: 40px 0 40px;
@@ -376,14 +375,25 @@ body {
 }
 
 @media all and (max-width: 1360px) {
-  body > header {
-    //    width: 1030px;
-  }
-  body > div > #main {
-    margin-left: 340px;
+  body > section > #main {
+    margin: 0 40px 0 340px;
   }
   #ad {
     display: none;
   }
 }
 
+@media all and (max-width: 1060px) {
+  body > section > #main {
+    margin: 0 40px 0 40px;
+  }
+  #profile {
+    display: none;
+  }
+}
+
+@media all and (max-width: 760px) {
+  body > header {
+    position: absolute;
+  }
+}

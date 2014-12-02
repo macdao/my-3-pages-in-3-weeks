@@ -71,17 +71,17 @@ body {
   text-align: center;
   color: #58575F;
   background-color: #F2EEE8;
-  min-width: 1030px;
 }
-/* line 19, ../sass/style.scss */
+/* line 18, ../sass/style.scss */
 body a {
   text-decoration: none;
 }
-/* line 22, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 body > header {
   top: 0;
   height: 80px;
   width: 100%;
+  min-width: 760px;
   background: HSL(38, 100%, 98%);
   box-shadow: 0 0 5px HSL(300, 6%, 86%);
   position: fixed;
@@ -170,16 +170,16 @@ body > header .operations .account img {
   border-radius: 100%;
 }
 /* line 106, ../sass/style.scss */
-body > div {
+body > section {
   position: relative;
   margin-top: 80px;
 }
 /* line 109, ../sass/style.scss */
-body > div > aside {
+body > section > aside {
   width: 300px;
 }
 /* line 111, ../sass/style.scss */
-body > div > aside#profile {
+body > section > aside#profile {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -189,30 +189,30 @@ body > div > aside#profile {
   color: white;
 }
 /* line 121, ../sass/style.scss */
-body > div > aside#profile .card header {
+body > section > aside#profile .card header {
   font-weight: 400;
   margin-bottom: 4px;
 }
 /* line 124, ../sass/style.scss */
-body > div > aside#profile .card header img {
+body > section > aside#profile .card header img {
   display: block;
   width: 100px;
   border-radius: 100%;
   margin: 55px auto 20px;
 }
 /* line 131, ../sass/style.scss */
-body > div > aside#profile .card article {
+body > section > aside#profile .card article {
   line-height: 20px;
   padding: 10px;
 }
 /* line 136, ../sass/style.scss */
-body > div > aside#profile .card footer a {
+body > section > aside#profile .card footer a {
   margin: 20px auto;
   display: block;
   color: white;
 }
 /* line 141, ../sass/style.scss */
-body > div > aside#profile .card footer button {
+body > section > aside#profile .card footer button {
   font-size: 16px;
   color: white;
   width: 160px;
@@ -222,44 +222,44 @@ body > div > aside#profile .card footer button {
   border: 0;
 }
 /* line 153, ../sass/style.scss */
-body > div > aside#profile .gallery {
+body > section > aside#profile .gallery {
   overflow: hidden;
   margin-top: 40px;
 }
 /* line 156, ../sass/style.scss */
-body > div > aside#profile .gallery li {
+body > section > aside#profile .gallery li {
   float: left;
 }
 /* line 158, ../sass/style.scss */
-body > div > aside#profile .gallery li img {
+body > section > aside#profile .gallery li img {
   display: block;
   width: 100px;
 }
 /* line 164, ../sass/style.scss */
-body > div > aside#profile .activities {
+body > section > aside#profile .activities {
   margin: 30px;
   text-align: left;
 }
 /* line 167, ../sass/style.scss */
-body > div > aside#profile .activities header {
+body > section > aside#profile .activities header {
   text-transform: uppercase;
 }
 /* line 170, ../sass/style.scss */
-body > div > aside#profile .activities ul {
+body > section > aside#profile .activities ul {
   margin-top: 10px;
   color: HSL(208, 35%, 57%);
 }
 /* line 173, ../sass/style.scss */
-body > div > aside#profile .activities ul li {
+body > section > aside#profile .activities ul li {
   line-height: 30px;
 }
 /* line 175, ../sass/style.scss */
-body > div > aside#profile .activities ul li a {
+body > section > aside#profile .activities ul li a {
   color: white;
   border-bottom: 1px solid HSL(212, 40%, 90%);
 }
 /* line 186, ../sass/style.scss */
-body > div > aside#ad {
+body > section > aside#ad {
   position: absolute;
   right: 0;
   top: 0;
@@ -268,54 +268,54 @@ body > div > aside#ad {
   font-size: 16px;
 }
 /* line 194, ../sass/style.scss */
-body > div > aside#ad .trends {
+body > section > aside#ad .trends {
   text-align: left;
   padding: 40px 35px;
 }
 /* line 197, ../sass/style.scss */
-body > div > aside#ad .trends h2 {
+body > section > aside#ad .trends h2 {
   text-transform: uppercase;
 }
 /* line 200, ../sass/style.scss */
-body > div > aside#ad .trends ul {
+body > section > aside#ad .trends ul {
   margin-top: 20px;
 }
 /* line 202, ../sass/style.scss */
-body > div > aside#ad .trends ul a {
+body > section > aside#ad .trends ul a {
   color: HSL(208, 43%, 65%);
   line-height: 22px;
 }
 /* line 209, ../sass/style.scss */
-body > div > aside#ad .follow {
+body > section > aside#ad .follow {
   padding: 10px 40px 0 50px;
 }
 /* line 212, ../sass/style.scss */
-body > div > aside#ad .follow header {
+body > section > aside#ad .follow header {
   height: 20px;
   margin-bottom: 10px;
 }
 /* line 215, ../sass/style.scss */
-body > div > aside#ad .follow header h2 {
+body > section > aside#ad .follow header h2 {
   text-transform: uppercase;
   float: left;
 }
 /* line 219, ../sass/style.scss */
-body > div > aside#ad .follow header a {
+body > section > aside#ad .follow header a {
   float: right;
   color: HSL(208, 43%, 65%);
 }
 /* line 226, ../sass/style.scss */
-body > div > aside#ad .follow ul li {
+body > section > aside#ad .follow ul li {
   height: 60px;
 }
 /* line 228, ../sass/style.scss */
-body > div > aside#ad .follow ul li img {
+body > section > aside#ad .follow ul li img {
   border-radius: 100%;
   float: left;
   width: 40px;
 }
 /* line 233, ../sass/style.scss */
-body > div > aside#ad .follow ul li .detail {
+body > section > aside#ad .follow ul li .detail {
   width: 130px;
   padding-left: 20px;
   float: left;
@@ -323,20 +323,20 @@ body > div > aside#ad .follow ul li .detail {
   line-height: 20px;
 }
 /* line 239, ../sass/style.scss */
-body > div > aside#ad .follow ul li .detail .name {
+body > section > aside#ad .follow ul li .detail .name {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 /* line 244, ../sass/style.scss */
-body > div > aside#ad .follow ul li .detail .description {
+body > section > aside#ad .follow ul li .detail .description {
   color: #C6C1B0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 /* line 251, ../sass/style.scss */
-body > div > aside#ad .follow ul li .add {
+body > section > aside#ad .follow ul li .add {
   color: black;
   float: right;
   border: 1px solid #F2EEE8;
@@ -344,25 +344,24 @@ body > div > aside#ad .follow ul li .add {
   line-height: 15px;
 }
 /* line 266, ../sass/style.scss */
-body > div #main {
-  margin: 0 auto;
-  width: 50%;
+body > section #main {
+  margin: 0 340px 0 340px;
   min-width: 680px;
   background: HSL(33, 30%, 93%);
   padding: 40px 0 40px;
 }
-/* line 273, ../sass/style.scss */
-body > div #main > nav {
+/* line 272, ../sass/style.scss */
+body > section #main > nav {
   background: #FFFBF5;
   height: 80px;
   box-shadow: 0 2px 5px HSL(300, 6%, 86%);
 }
-/* line 278, ../sass/style.scss */
-body > div #main > nav > ul {
+/* line 277, ../sass/style.scss */
+body > section #main > nav > ul {
   height: 100%;
 }
-/* line 281, ../sass/style.scss */
-body > div #main > nav > ul > li {
+/* line 280, ../sass/style.scss */
+body > section #main > nav > ul > li {
   float: left;
   width: 25%;
   text-transform: uppercase;
@@ -371,43 +370,43 @@ body > div #main > nav > ul > li {
   height: 50px;
   color: #C6C1B0;
 }
-/* line 289, ../sass/style.scss */
-body > div #main > nav > ul > li strong {
+/* line 288, ../sass/style.scss */
+body > section #main > nav > ul > li strong {
   padding-top: 4px;
   display: block;
   color: black;
   font-weight: 400;
 }
-/* line 295, ../sass/style.scss */
-body > div #main > nav > ul > li:first-child {
+/* line 294, ../sass/style.scss */
+body > section #main > nav > ul > li:first-child {
   border-bottom: 5px solid HSL(208, 43%, 65%);
 }
-/* line 302, ../sass/style.scss */
-body > div #main > section {
+/* line 301, ../sass/style.scss */
+body > section #main > section {
   background: #FFFBF5;
   box-shadow: 0 2px 5px HSL(300, 6%, 86%);
 }
-/* line 306, ../sass/style.scss */
-body > div #main > section > ul {
+/* line 305, ../sass/style.scss */
+body > section #main > section > ul {
   list-style: none;
   padding-left: 0;
 }
-/* line 309, ../sass/style.scss */
-body > div #main > section > ul > li {
+/* line 308, ../sass/style.scss */
+body > section #main > section > ul > li {
   border-bottom: 1px solid gray;
 }
-/* line 314, ../sass/style.scss */
-body > div #main .posts {
+/* line 313, ../sass/style.scss */
+body > section #main .posts {
   margin-top: 30px;
 }
-/* line 316, ../sass/style.scss */
-body > div #main .posts .post {
+/* line 315, ../sass/style.scss */
+body > section #main .posts .post {
   text-align: left;
   padding-bottom: 30px;
   border-bottom: 1px solid #F2EEE8;
 }
-/* line 320, ../sass/style.scss */
-body > div #main .posts .post img {
+/* line 319, ../sass/style.scss */
+body > section #main .posts .post img {
   margin-left: 30px;
   margin-top: 30px;
   width: 40px;
@@ -415,66 +414,83 @@ body > div #main .posts .post img {
   border-radius: 100%;
   position: absolute;
 }
-/* line 328, ../sass/style.scss */
-body > div #main .posts .post section {
+/* line 327, ../sass/style.scss */
+body > section #main .posts .post section {
   margin-left: 90px;
   margin-right: 30px;
 }
-/* line 332, ../sass/style.scss */
-body > div #main .posts .post section header {
+/* line 331, ../sass/style.scss */
+body > section #main .posts .post section header {
   padding-top: 30px;
 }
-/* line 334, ../sass/style.scss */
-body > div #main .posts .post section header .icon-loop {
+/* line 333, ../sass/style.scss */
+body > section #main .posts .post section header .icon-loop {
   color: green;
   margin: 0 5px;
 }
-/* line 338, ../sass/style.scss */
-body > div #main .posts .post section header .name {
+/* line 337, ../sass/style.scss */
+body > section #main .posts .post section header .name {
   font-size: 15px;
   font-weight: 400;
 }
-/* line 342, ../sass/style.scss */
-body > div #main .posts .post section header .id {
+/* line 341, ../sass/style.scss */
+body > section #main .posts .post section header .id {
   font-size: 15px;
   color: #C6C1B0;
 }
-/* line 346, ../sass/style.scss */
-body > div #main .posts .post section header .time {
+/* line 345, ../sass/style.scss */
+body > section #main .posts .post section header .time {
   font-size: 15px;
   color: #C6C1B0;
   float: right;
 }
-/* line 353, ../sass/style.scss */
-body > div #main .posts .post section .content {
+/* line 352, ../sass/style.scss */
+body > section #main .posts .post section .content {
   padding-top: 15px;
   font-size: 15px;
   line-height: 20px;
   overflow: hidden;
 }
-/* line 359, ../sass/style.scss */
-body > div #main .posts .post section footer {
+/* line 358, ../sass/style.scss */
+body > section #main .posts .post section footer {
   margin-top: 20px;
 }
-/* line 361, ../sass/style.scss */
-body > div #main .posts .post section footer a {
+/* line 360, ../sass/style.scss */
+body > section #main .posts .post section footer a {
   font-size: 16px;
   color: #C6C1B0;
   margin-right: 0.6em;
 }
-/* line 365, ../sass/style.scss */
-body > div #main .posts .post section footer a:last-child {
+/* line 364, ../sass/style.scss */
+body > section #main .posts .post section footer a:last-child {
   float: right;
 }
 
 @media all and (max-width: 1360px) {
-  /* line 382, ../sass/style.scss */
-  body > div > #main {
-    margin-left: 340px;
+  /* line 378, ../sass/style.scss */
+  body > section > #main {
+    margin: 0 40px 0 340px;
   }
 
-  /* line 385, ../sass/style.scss */
+  /* line 381, ../sass/style.scss */
   #ad {
     display: none;
+  }
+}
+@media all and (max-width: 1060px) {
+  /* line 387, ../sass/style.scss */
+  body > section > #main {
+    margin: 0 40px 0 40px;
+  }
+
+  /* line 390, ../sass/style.scss */
+  #profile {
+    display: none;
+  }
+}
+@media all and (max-width: 760px) {
+  /* line 396, ../sass/style.scss */
+  body > header {
+    position: absolute;
   }
 }
