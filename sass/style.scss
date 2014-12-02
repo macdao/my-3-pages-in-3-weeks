@@ -22,7 +22,7 @@ body {
     top: 0;
     height: 80px;
     width: 100%;
-    min-width: 760px;
+    min-width: 320px;
     background: HSL(38, 100%, 98%);
     box-shadow: 0 0 5px $border-color;
     position: fixed;
@@ -265,7 +265,7 @@ body {
 
     #main {
       margin: 0 340px 0 340px;
-      min-width: 680px;
+      min-width: 320px;
       background: HSL(33, 30%, 93%);
       padding: 40px 0 40px;
 
@@ -395,5 +395,40 @@ body {
 @media all and (max-width: 760px) {
   body > header {
     position: absolute;
+    .actions {
+      display: none;
+    }
+    .operations {
+      width: 87px;
+      .search {
+        display: none;
+      }
+    }
+  }
+  body > section > #main {
+    margin: 0;
+    padding: 10px 0 10px;
+    & > nav {
+      height: 40px;
+      & > ul {
+        & > li {
+          margin-top: 7px;
+          height: 28px;
+          font-size: 10px;
+        }
+      }
+    }
+
+    .posts {
+      margin-top: 10px;
+      .post {
+        img {
+          display: none;
+        }
+        & > section {
+          margin-left: 30px;
+        }
+      }
+    }
   }
 }
